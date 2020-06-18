@@ -59,6 +59,8 @@ public  void checkAdmin(String input) {
             case 5:
                 logout();
                 break;
+            default:
+                //wrongInput
 
         }
     }
@@ -73,5 +75,6 @@ public  void checkAdmin(String input) {
     }
     private void logout() {
     }
+
 }
 
